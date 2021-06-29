@@ -1,0 +1,42 @@
+body {
+  width: 100vw;
+  height: 100ch;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0;
+  transform: translate(50%, 50%);
+  width: 50vw;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: calc(55px + 0.2em);
+}
+#value {
+  margin-left: 20px;
+  font-size: calc(40px + 0.2em);
+  font-weight: 900;
+  margin-left: 7vw;
+}
+
+.btn {
+  font-size: calc(16px + 0.2em);
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: 4px;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btn:hover {
+  background-color: #222;
+  color: #fff;
+}
